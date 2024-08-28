@@ -46,7 +46,7 @@ const App = () => {
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
         <ToastContainer position="top-center" />
       </Router>
     </>
